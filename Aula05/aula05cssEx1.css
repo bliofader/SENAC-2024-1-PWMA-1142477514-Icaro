@@ -1,0 +1,14 @@
+.container-grid{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    background-color: orange;
+    padding: 10px;
+    gap:5px
+   }
+   .container-grid > div{
+    background-color: aqua;
+    border: 1px solid blue;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+   }
